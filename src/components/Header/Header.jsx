@@ -15,19 +15,19 @@ const Header = () => {
                             className={({ isActive }) =>
                                 isActive ? "isActive bg-none border border-[#23BE0A] font-bold text-[#23BE0A]" : ""
                             }>
-                            Home</NavLink>;</li>
+                            Home</NavLink></li>
                         <li><NavLink
                             to="/listedbooks"
                             className={({ isActive }) =>
                                 isActive ? "isActive bg-none border border-[#23BE0A] font-bold text-[#23BE0A]" : ""
                             }>
-                            Listed Books</NavLink>;</li>
+                            Listed Books</NavLink></li>
                         <li><NavLink
                             to="/pagesread"
                             className={({ isActive }) =>
                                 isActive ? "isActive bg-none border border-[#23BE0A] font-bold text-[#23BE0A]" : ""
                             }>
-                            Pages To Read</NavLink>;</li>
+                            Pages To Read</NavLink></li>
                     </ul>
                 </div>
                 <a className="btn btn-ghost text-2xl font-bold">Book Vibe</a>
@@ -39,19 +39,19 @@ const Header = () => {
                         className={({ isActive }) =>
                             isActive ? "isActive bg-none border border-[#23BE0A] font-bold text-[#23BE0A]" : ""
                         }>
-                        Home</NavLink>;</li>
+                        Home</NavLink></li>
                     <li><NavLink
                         to="/listedbooks"
                         className={({ isActive }) =>
                             isActive ? "isActive bg-none border border-[#23BE0A] font-bold text-[#23BE0A]" : ""
                         }>
-                        Listed Books</NavLink>;</li>
+                        Listed Books</NavLink></li>
                     <li><NavLink
                         to="/pagesread"
                         className={({ isActive }) =>
                             isActive ? "isActive bg-none border border-[#23BE0A] font-bold text-[#23BE0A]" : ""
                         }>
-                        Pages To Read</NavLink>;</li>
+                        Pages To Read</NavLink></li>
                 </ul>
             </div>
             <div className="navbar-end gap-4">
