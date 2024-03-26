@@ -1,6 +1,6 @@
 [
     {
-        "bookId": 1,
+        "id": 1,
         "bookName": "The Catcher in the Rye",
         "author": "J.D. Salinger",
         "image": "https://i.ibb.co/f0bhG6d/pngwing-1-1.png",
@@ -16,7 +16,7 @@
         "yearOfPublishing": 1951
     },
     {
-        "bookId": 2,
+        "id": 2,
         "bookName": "The Alchemist",
         "author": "Paulo Coelho",
         "image": "https://i.ibb.co/yYHHGM5/kindpng-7318921.png",
@@ -29,7 +29,7 @@
         "yearOfPublishing": 1988
     },
     {
-        "bookId": 3,
+        "id": 3,
         "bookName": "The Great Gatsby",
         "author": "F. Scott Fitzgerald",
         "image": "https://i.ibb.co/F8L1wT5/kindpng-1064993.png",
@@ -45,7 +45,7 @@
         "yearOfPublishing": 1925
     },
     {
-        "bookId": 4,
+        "id": 4,
         "bookName": "To Kill a Mockingbird",
         "author": "Harper Lee",
         "image": "https://i.ibb.co/SX0hCx6/kindpng-4022054-1.png",
@@ -61,7 +61,7 @@
         "yearOfPublishing": 1960
     },
     {
-        "bookId": 5,
+        "id": 5,
         "bookName": "The Hobbit",
         "author": "J.R.R. Tolkien",
         "image": "https://i.ibb.co/B3nHZYq/kindpng-81724-1.png",
@@ -77,7 +77,7 @@
         "yearOfPublishing": 1937
     },
     {
-        "bookId": 6,
+        "id": 6,
         "bookName": "Pride and Prejudice",
         "author": "Jane Austen",
         "image": "https://i.ibb.co/4RfxSwV/kindpng-2193744-1.png",
