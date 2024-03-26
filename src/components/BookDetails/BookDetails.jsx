@@ -11,7 +11,7 @@ const BookDetails = () => {
     console.log(book)
 
     const handleReadBook=()=>{
-        saveReadBook(id)
+        saveReadBook(idInt)
         toast('Books Added to Read List')
     }
     return (
