@@ -1,8 +1,11 @@
+import BookCard from "../ReadBook/BookCard";
 
-const WishlistBook = () => {
+const WishlistBook = ({wishlistBooks}) => {
     return (
         <div>
-            <h1>Wishlist Book</h1>
+            {
+                wishlistBooks?.map(book =><BookCard key={book.id} book={book}></BookCard>)
+            }
         </div>
     );
 };

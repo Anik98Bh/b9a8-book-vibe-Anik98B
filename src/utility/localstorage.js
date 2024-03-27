@@ -28,7 +28,7 @@ const saveWishlistBook = id => {
     const exists = storedWishlistBooks.find(bookId => bookId === id);
     if(!exists){
         storedWishlistBooks.push(id);
-        localStorage.setItem('read-books', JSON.stringify(storedWishlistBooks))
+        localStorage.setItem('wishlist-books', JSON.stringify(storedWishlistBooks))
     }
 }
 

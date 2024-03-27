@@ -9,11 +9,8 @@ const BookDetails = () => {
     const { id } = useParams();
     const idInt = parseInt(id)
     const book = books.find(book => book.id === idInt)
-    console.log(book)
-    // useEffect(()=>{
-    //     if()
-    // },[])
     const storedBookIds = getStoredReadBook();
+    const storedWishlistBookIds = getStoredWishlistBook();
 
     const handleReadBook = (idInt) => {
         if (!storedBookIds.includes(idInt)) {
@@ -27,11 +24,11 @@ const BookDetails = () => {
 
     const handleWishlistBook = (idInt) => {
         if (!storedBookIds.includes(idInt)){
-            saveWishlistBook(idInt)
+            return saveWishlistBook(idInt),
             toast.success('Books added to Wishlist')
         }else{
 
-            toast.warn(' Books Added in Read List')
+            toast.error(' Books Already have in Read List')
         }
     }
 

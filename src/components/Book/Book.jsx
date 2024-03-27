@@ -2,7 +2,7 @@ import { GoStar } from "react-icons/go";
 import { Link } from "react-router-dom";
 
 const Book = ({ book }) => {
-    const {id, bookName, author, image, review, totalPages, rating, category, tags, publisher, yearOfPublishing } = book;
+    const {id, bookName, author, image, rating, category, tags } = book;
     return (
         <Link to={`/book/${id}`}>
             <div className="card bg-base-100 border rounded-2xl mt-7  py-5">
