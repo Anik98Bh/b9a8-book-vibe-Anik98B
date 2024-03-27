@@ -33,7 +33,6 @@ const data = [
 
 
 
-
 const PagesToRead = () => {
     return (
         <div className='mt-9'>
@@ -50,7 +49,7 @@ const PagesToRead = () => {
             >
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="name" />
-                <YAxis />
+                <YAxis dataKey='' />
                 <Bar dataKey="uv" fill="#8884d8" shape={<TriangleBar />} label={{ position: 'top' }}>
                     {data.map((entry, index) => (
                         <Cell key={`cell-${index}`} fill={colors[index % 20]} />
