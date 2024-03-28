@@ -50,7 +50,7 @@ const ListedBooks = () => {
     return (
         <div>
             <div className="w-full bg-[#1313130D] text-center py-8 rounded-2xl">
-                <h1 className="text-4xl font-bold">Books: {listBooks.length}</h1>
+                <h1 className="text-4xl font-bold">Books</h1>
             </div>
             <div className="dropdown dropdown-bottom mt-10 mb-20 flex justify-center items-center">
                 <div tabIndex={0} role="button" className="btn bg-[#23BE0A] text-white font-semibold m-1">Sort By <FaAngleDown></FaAngleDown></div>
